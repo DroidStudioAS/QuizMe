@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="questionRemainingText">Questions \n Remaining:</string>
+
+    <string-array name="spinner_entries">
+        <item>music</item>
+        <item>sport/leisure </item>
+        <item>film&amp;tv </item>
+        <item>arts&amp;iterature</item>
+        <item>history </item>
+        <item>society&amp;culture</item>
+        <item>science</item>
+        <item>geography</item>
+        <item>food&amp;drink</item>
+        <item>general knowledge</item>
+    </string-array>
+    <string-array name="spinner_urls">
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=music</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=sport_and_leisure</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=film_and_tv</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=arts_and_literature</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=history</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=society_and_culture</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=science</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=geography</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=food_and_drink</item>
+        <item>https://the-trivia-api.com/v2/questions?limit=1&amp;&amp;categories=general_knowledge</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

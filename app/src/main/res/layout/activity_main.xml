@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/portrait_main_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/play_but"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Spinner
+        android:id="@+id/categorySelector"
+        android:layout_width="181dp"
+        android:layout_height="52dp"
+        android:background="#FFEB3B"
+        android:entries="@array/spinner_entries"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/almendra_sc"
+        android:gravity="center"
+        android:text="Select Your Category"
+        android:textColor="#FFEB3B"
+        android:textSize="22sp" />
+</LinearLayout>

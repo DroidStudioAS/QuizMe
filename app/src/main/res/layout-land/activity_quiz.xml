@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO: make all the textviews the same and center them out... Optimize UI for landscape mode... Optimise UI for tablet -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_background"
+    android:gravity="center"
+    tools:context=".quizActivity">
+
+    <LinearLayout
+        android:id="@+id/remainingQuestionsContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionView"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/almendra_sc"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/remainingPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bad_script"
+            android:gravity="center"
+            android:text="@string/questionRemainingText"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/remainingQuestipnsView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bad_script"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quizContainer"
+        android:layout_width="0dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:background="@drawable/landscape_quiz_widget"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/awnserOne"
+            android:layout_width="330dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="22dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/awnserTwo"
+            android:layout_width="330dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/awnserThree"
+            android:layout_width="330dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/awnserFour"
+            android:layout_width="330dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/scoreView"
+            android:layout_width="155dp"
+            android:layout_height="64dp"
+            android:fontFamily="@font/almendra_sc"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+</LinearLayout>
